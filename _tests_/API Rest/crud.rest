@@ -1,0 +1,25 @@
+### COLLECTIONS CRUD
+
+POST http://localhost:3030/user-create
+
+{
+    "name":"Carloscastro",
+    "birth":"03/08/198",
+    "cpf":"08596324578",
+    "phone":"092982401557",
+    "email":"souza@gmail.com",
+    "password":"158963"
+}
+
+PUT http://localhost:3030/user-update/1
+
+{
+    "name":"Cleber2",
+    "email":"cantosaraiva8@gmail.com"
+}
+
+GET http://localhost:3030/user-list
+
+DELETE http://localhost:3030/user-delete/6
+
+
